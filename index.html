@@ -1,3 +1,8 @@
+<!--
+So this will be the main page for the website, where the map
+will be at.
+I will also add some basic tags for HTML in the Read Me.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +10,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="script" href="index.js">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+    </style>
 </head>
 <body>
-    <div class="home" id="menu">
-        <a href="cameraroll.html">Camera Roll</a>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Craighead Forest Park</a></div>
+            <div class = "nav-links">
+                <ul class ="links">
+                    <li><a href="cameraroll.html">Camera Roll</a></li>
+                    <li>
+                        <a href="history.html">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Enterteinment</a>
+                        <ul class="submenu">
+                            <li><a href="camping.html">Camping</a></li>
+                            <li><a href="fishing.html">Fishing</a></li>
+                            <li><a href="pavillion.html">Pavillion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Join</a>
+                        <ul class="submenu">
+                            <li><a href="joboportunities.html">Job Opportunities</a></li>
+                            <li><a href="volunteer.html">Volunteer</a></li>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+    <div class="content-box">
+        <!-- Page content goes here -->
+        <h1>Welcome to Craighead Forest Park</h1>
+        <p>This is the main page content.</p>
     </div>
 </body>
 </html>
