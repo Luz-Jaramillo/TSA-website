@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <!--This is the part that shows what the head of the webpage will say-->
+<head>
+    <!--This is the part that shows what the head of the webpage will say-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,8 +10,8 @@
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <nav>
         <div class="navbar">
             <div class="logo"><a href="index.html">Craighead Forest Park</a></div>
@@ -22,7 +21,7 @@
                     <li>
                         <a href="history.html">About</a>
                     </li>
-                    <li>
+                    <li class="menu">
                         <a href="#">Enterteinment</a>
                         <ul class="submenu">
                             <li><a href="camping.html">Camping</a></li>
@@ -30,82 +29,106 @@
                             <li><a href="pavillion.html">Pavillion</a></li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="menu">
                         <a href="#">Join</a>
                         <ul class="submenu">
                             <li><a href="joboportunities.html">Job Opportunities</a></li>
                             <li><a href="volunteer.html">Volunteer</a></li>
+                        </ul>
                     </li>
                 </ul>
         </div>
     </nav>
-    <div class="content-box">
-      <h1>Camping</h1>
-      <div class ="page-one">
-        <p>
-          The Craighforest Park Campground lets visitors enjoy the views this park has to offer with its rustic athmosphere. Being allowed all year round, the camp offers many commodities across the facilities.
-        </p>
-      </div>
-      <div class="page-two">
-        <p> The Campground includes: </p>
-        <ul>
-          <li>5 Tents at the edge of the lake</li>
-          <li>Primitive camping area.</li>
-          <li>Fire rings and grills</li>
-          <li>Picnic Tables</li>
-          <li>Water</li>
-        </ul>
-      </div>
-      <div class="page-three">
-        <h3>RVS</h3>
-        <!--> this is where the information of the RVs is-->
-      </div>
-      <div class = "pricing">
-        <h2>Pricing</h2>
-        <table>
-          <tr>Site with Hook Ups</tr>
-          <tr>
-            <tr>Daily</tr>
-            <tr>$25 per night</tr>
-          </tr>
-          <tr>
-            <tr>Weekly</tr>
-            <tr>$150 per night</tr>
-          </tr>
-          <tr>
-            <tr>Daily Senior</tr>
-            <tr>$15 per night</tr>
-          </tr>
-          <tr>
-            <tr>Weekly Snior</tr>
-            <tr>$90 per night</tr>
-          </tr>
-        </table>
-        <!--> Tent Sites -->
-        <table>
-          <tr>Tent Sites</tr>
-          <tr>
-            <tr>Daily</tr>
-            <tr>$10 per night</tr>
-          </tr>
-          <tr>
-            <tr>Weekly</tr>
-            <tr>$60 per night</tr>
-          </tr>
-        </table>
-        <!-- Extended Stay -->
-        <table>
-          <tr>Extended Stay (Nov-March)</tr>
-          <tr>
-            <tr>Daily</tr>
-            <tr>$15 per night</tr>
-          </tr>
-          <tr>
-            <tr>Weekly</tr>
-            <tr>$90 per night</tr>
-          </tr>
-        </table>
-      </div>
+    <div class = "campimg-pgone">this is box</div>
+    <h1>Camping</h1>
+    <div class="campingtext-pgone">
+        The Craighead Forest Park Campground lets bisitors enjoy the views that this park has to offer
+        with its rustic athomosphere. Being allowed all year round, the camp offers many commodities across the facilities.
     </div>
-  </body>
+    <!-- this is for the second page-->
+    <h2>The Campground offers:</h2>
+    <ul class="campinglist-pgone">
+        <li class="listext-one">5 Tents at the edge of the lake</li>
+        <li class="listext-two">Primitive camping area.</li>
+        <li class="listext-three">Fire rings and grills</li>
+        <li class="listext-four">Picnic Tables</li>
+        <li class="listext-five">Water</li>
+    </ul>
+    <div class ="listimg-one">one</div>
+    <div class ="listimg-two">two</div>
+    <div class ="listimg-three">three</div>
+    <div class ="listimg-four">four</div>
+    <div class ="listimg-five">five</div>
+    <!-- This is the third page-->
+    <h2>RVS</h2>
+    <div class="rvimg">this is a box</div>
+    <div class="rvtext">
+        <p>The park also offers RV 36 sites on the campground, each having:</p>
+        <ul>
+            <li>Water</li>
+            <li>30 or 50 amp electrical hookup</li>
+            <li>Access to a personal table, patio, fire ring and grill</li>
+            <li>Pets on a leash are welcomed</li>
+            <li>Handicap access</li>
+        </ul>
+        <p>For more information, pelase call the office at (870) 351-7047.</p>
+    </div>
+    <!-- This is the fourth page-->
+    <h2>Pricing</h2>
+    <table class="with-hookups">
+        <caption>Site with Hook Ups</caption>
+        <tbody>
+            <tr>
+                <th>Daily</th>
+                <td>$25 per night</td>
+            </tr>
+            <tr>
+                <th>Weekly</th>
+                <td>$150 per week</td>
+            </tr>
+            <tr>
+                <th>Daily Senior</th>
+                <td>$15 per night</td>
+            </tr>
+            <tr>
+                <th>Weekly Senior</th>
+                <td>$90 per week</td>
+            </tr>
+            <tr>
+                <th>
+                    Weekly senior rate only applies to the first two weeks of camping.
+                </th>
+            </tr>
+        </tbody>
+    </table>
+    <!-- for tent sites-->
+    <table class = "tent-sites">
+        <caption>Tent Sites</caption>
+        <tbody>
+            <tr>
+                <th>Daily</th>
+                <td>$10 per night</td>
+            </tr>
+            <tr>
+                <th>Weekly</th>
+                <td>$60 per week</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Extended Stay -->
+     <table class="extended-stay">
+        <caption>Extended Stay (November-March)</caption>
+        <tbody>
+            <tr>
+                <th>Daily</th>
+                <td>$15 per night</td>
+            </tr>
+            <tr>
+                <th>Weekly</th>
+                <td>$90 per week</td>
+            </tr>
+        </tbody>
+     </table>
+
+</body>
 </html>
