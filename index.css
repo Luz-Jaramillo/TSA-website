@@ -1,0 +1,204 @@
+body{
+    margin:0;
+    color: #6a823d;
+    background-color: #f5f5dc;
+}
+/* This is for the nav bar */
+li{
+    margin: 0;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    background: #6a823d
+}
+.submenu li{
+    display: block;
+    padding: 5px;
+}
+li:hover > .submenu{
+    display: block;
+}
+nav{
+    background: #6a823d;
+    padding: 2rem;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+}
+/* This is for the index pg.*/
+.aboutext-pgone{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.aboutimg-pgone{
+    width: 90%;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    right: 100px;
+}
+/*This is for the camping pg.*/
+.campimg-pgone{
+    width: 544px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.campingtext-pgone{
+    margin-left: 50%;
+    margin-right: 50px;
+    margin-top: -250px;
+}
+.page-two{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 60%;
+}
+.campinglist-pgone{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 60%;
+}
+.page-three{
+    margin-top: 150px;
+}
+
+.rvtext{
+    margin-left: 60%;
+    margin-right: 50px;
+    margin-bottom: 150px;
+    margin-top: -250px;
+}
+.rvimg{
+    margin-left: 50px;
+}
+
+.with-hookups{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.with-hookups .top-cap{
+    color: #6a823d;
+}
+.with-hookups th, .with-hookups td{
+    color: #f5f5f5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.with-hookups .warning{
+    caption-side: bottom;
+    color:#6a823d;
+}
+.tent-sites{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tent-sites caption{
+    color: #6a823d;
+}
+.tent-sites th, .tent-sites td{
+    color:#f5f5dc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.extended-stay{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 100px;
+}
+.extended-stay caption{
+    color:#6a823d;
+    
+}
+.extended-stay th, .extended-stay td{
+    color:#f5f5dc;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+/* This is for the fishing pg. */
+.fishtext-pgone{
+    margin-left: 60%;
+    margin-top: -250px;
+    margin-bottom: 200px
+    
+}
+.fishimg-pgone{
+    margin-left: 50px;
+}
+.fishtext-pgtwo{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 40%;
+}
+.fishtext-pgthree-one{
+    margin-bottom: -220px;
+    margin-left: 50px;
+    margin-right: 40%;
+}
+.fishtext-pgfour{
+    margin-top: 50px;
+    margin-left: 60%;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+/* This is for volunteering */
+.volunteer-pgone{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.voluntext-pgone p{
+    margin-top: 10px;
+    margin-left: 50%;
+    margin-right: 50px;
+}
+.voluntext-pgtwo{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 60%;
+}
+
+.voluntext-pgthree{
+    margin-left: 60%;
+    margin-right: 50px;
+    margin-top: -170px;
+}
+/* This is for the contact us page*/
+.content-box{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.content-box .context{
+    margin-top: 50px;
+}
